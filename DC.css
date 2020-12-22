@@ -1,0 +1,82 @@
+#head {
+    /* background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); */
+}
+
+#header {
+    background: linear-gradient(90deg, #0e5675,#12506b 25%,#0c445c);
+}
+#header a  {
+    font-family: fantasy;
+}
+#header img {
+    width: 150px;
+}
+#liga h1 {
+    font-family: fantasy;
+}
+
+#liga .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+#personajes, #comics, #villanos h2 {
+    text-shadow: 0 0 0.2em #208ebd, 0 0 0.2em #2180a8, 0 0 0.2em #17698b;
+    font-family: fantasy;
+}
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+ #comics img {
+    max-width: 100%;
+ }
+#villanos .card-1 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#2FBCF7,#1B7093 25%,#123F51);
+} 
+#villanos .card-2 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#ff4949,#c92020 25%,#793434);
+} 
+#villanos .card-3 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#fd7f35,#cf6121 25%,#79451b);
+} 
+#villanos .card-4 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#d3ec41,#b9d130 25%,#424e0b);
+} 
+#villanos .card-5 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#e7e438,#d1c51c 25%,#cfa417);
+} 
+#villanos .card-6 {
+    border-radius: 5%;
+    background: linear-gradient(90deg,#8c6aeb,#823ddd 25%,#4d2fa0);
+} 
+#villanos h2 {
+    text-shadow: 0 0 0.2em #34255C, 0 0 0.2em #34255C, 0 0 0.2em #34255C;
+}
+
+#footer {
+    background: linear-gradient(90deg, #0e5675,#12506b 25%,#0c445c);
+}
+#footer a {
+    color: white;
+    font-family: fantasy;
+}

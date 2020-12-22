@@ -1,0 +1,21 @@
+body {
+    background-image: url('../OtrosVillanos/images/villanos.jpg');
+}
+#header {
+    background: linear-gradient(90deg, #0e5675,#12506b 25%,#0c445c);
+}
+#header a, h1  {
+    color: white;
+    font-family: fantasy;
+}
+#header img {
+    width: 150px;
+}
+
+#footer {
+    background: linear-gradient(90deg, #0e5675,#12506b 25%,#0c445c);
+}
+#footer a {
+    color: white;
+    font-family: fantasy;
+}
