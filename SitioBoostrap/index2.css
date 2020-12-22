@@ -1,0 +1,38 @@
+h1,
+h2
+ {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#header a {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+#header img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#navbar-toggler button {
+    background: white;
+}
+
+#project
+h3,
+h6,
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu a {
+    color: white;
+}
+
+#inicio  #image {
+    transition: .3s;
+  }
+#inicio .image #image:active img {
+    transform: translate(-30px);
+    transform: translateZ(30px);
+    perspective-origin: center;
+  }
